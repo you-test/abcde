@@ -20,9 +20,10 @@ ul {
 
 .container {
   margin: 0 auto;
-  padding: 3%;
-  max-width: 600px;
+  padding: 0 4%;
+  max-width: 960px;
 }
+
 header img {
   width: 10px;
 }
@@ -101,7 +102,7 @@ header img {
 
 .header-banner {
     position: relative;
-    height: 300px;
+    height: 400px;
     width: 100%;
     z-index: 2;
 }
@@ -173,6 +174,7 @@ header h3 {
 }
 
 footer {
+  margin-top: 100px;
   font-size: 12px;
   color: black;
   background-color: #99ffff;
@@ -182,8 +184,4 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-
-footer p {
-  margin-left: 3%;
 }
